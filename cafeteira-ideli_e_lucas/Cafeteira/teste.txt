@@ -1,0 +1,34 @@
+#INI MOEDA
+cinco;5;30;100;15
+dez;10;30;100;15
+vinte;25;30;100;15
+cinquenta;50;30;100;15
+um;100;30;100;15
+#FIM MOEDA
+#INI INGREDIENTE
+água;ml;30000;30000;2000
+cafe;gramas;3000;3000;200
+leite em pó;gramas;15000;15000;1000
+canela;gramas;600;600;40
+chocolate;gramas;15000;15000;1000
+açucar;gramas;3600;3600;120
+#FIM INGREDIENTE
+#INI COPO
+P;150;100;100;10
+M;250;100;100;10
+G;500;100;100;10
+#FIM COPO
+#INI RECEITA
+Café Expresso (P);P;75;cafe;água;50;cafe;5
+Café Expresso (M);M;200;cafe;água;100;cafe;10
+Café Expresso (G);G;535;cafe;água;200;cafe;20
+Cappuccino (P);P;310;cafe;água;50;cafe;5;canela;1;leite em pó;25;chocolate;5
+Cappuccino (M);M;530;cafe;água;100;cafe;10;canela;2;leite em pó;50;chocolate;10
+Cappuccino (G);G;935;cafe;água;200;cafe;20;canela;4;leite em pó;100;chocolate;20
+Café com Leite (P);P;350;cafe;água;38;cafe;5;leite em pó;25
+Café com Leite (M);P;500;cafe;água;75;cafe;10;leite em pó;50
+Café com Leite (G);G;810;cafe;água;150;cafe;20;leite em pó;100
+Chocolate Quente (P);P;400;achocolatado;água;38;leite em pó;25;chocolate;25
+Chocolate Quente (M);M;600;achocolatado;água;75;leite em pó;50;chocolate;50
+Chocolate Quente (G);G;910;achocolatado;água;150;leite em pó;100;chocolate;100
+#FIM RECEITA
